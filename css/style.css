@@ -37,7 +37,7 @@
 }
 .dinamic{
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: -25px;
 }
 .main-container{
   min-height: 100vh;
@@ -88,9 +88,10 @@
   align:center;
 }
 .pictures{
-  height:600px;
+  height:85%;
   background-color: white;
-  padding-bottom:40px;
+  padding-bottom:0px;
+  padding-left: 100px;
 }
 .pictures-manga{
   width: 90%;
@@ -115,6 +116,8 @@
 .color-title{
   color:black;
 }
+
+
 .services img{
   width: 250px;
 }
@@ -122,7 +125,8 @@
   font-size: 1.5em;
   margin-right: auto;
   margin-top:auto;
-  padding-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 150px;
   padding-bottom: 0px;
   font-family: 'Montserrat', sans-serif;
@@ -131,7 +135,7 @@
 
 }
 .services h4{
-  font-size: 18px;
+  font-size: 15px;
   margin-top:60px;
   margin-bottom: 5px;
   padding-left: 10px;
@@ -155,8 +159,9 @@
 
 
 
+
 .slider{
-  width: 85%;
+  width: 65%;
   margin: auto;
   overflow: hidden;
   margin-left: auto;
@@ -206,12 +211,40 @@
 
 
 
+.change{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+.change ul{
+  display: flex;
+  padding: 0px;
+  width: 200%;
+
+  animation: siguente 10s infinite;
+  animation-direction: alternate-reverse;
+}
+.change li{
+  width: 100%;
+  list-style: none;
+}
+.change img{
+  width: 90%;
+}
 
 
 
 
- .loop{
-   width: 80%;
+
+
+
+
+
+
+.loop{
+   width:650px;
    margin: auto;
    overflow: hidden;
    margin-left: auto;
@@ -241,6 +274,51 @@
    100% {margin-left: -100%;}
 
  }
+
+
+
+ .publi{
+    width:650px;
+    margin: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-top: 30px;
+  }
+  .publi ul{
+    display: flex;
+    padding: 0px;
+    width: 300%;
+
+    animation: siguente 10s infinite;
+    animation-direction: alternate-reverse;
+  }
+  .publi li{
+    width: 100%;
+    list-style: none;
+  }
+  .publi img{
+    width: 100%;
+  }
+
+  @keyframes siguente {
+    0% {margin-left: 0;}
+    30% {margin-left: 0;}
+
+    33% {margin-left: -100%;}
+    63% {margin-left: -100%;}
+
+    66% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+  }
+
+
+
+
+
+
+
+
   .text h3{
     font-size: 1.5em;
     margin-right: auto;
@@ -259,6 +337,6 @@
     margin-left: auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color:black;
+    color:#606163;
 
   }
